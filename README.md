@@ -2,6 +2,7 @@
 Başarılı-Başarısız Test Senartoları
 
 1.Test senaryosu yazma
+
 Örneğin Yeni bir müşteri adayı ,alışveriş sitemize login olmak istiyor.
 a) Üyelik formunu başarılı bir şekilde doldurup,üyelik kaydının oluşturulması senaryosu
 oluşturulacak.
