@@ -4,36 +4,20 @@ Feature: Home Page
   @Check
   Scenario: Check Login Page
     Given LcWaikiki is on Home page
-    When click "Giriş Yap" card in the top rigt
+    When click "Üye Ol" card in the top rigt
     Then should see Login Page
 
   @Email @Components
   Scenario: Check Email Components
     Given LcWaikiki is on Login Page
     When click "E-Posta" radio button
-    Then should see "Giriş Yap" title
+    Then should see "Üye Ol" title
     Then should see "E-Posta" radio button
     Then should see "Telefon" radio button
     Then should see "E-Posta Adresi" text on Email
     Then should see "Şifre" text on Password
     Then should see Show Password Icon
-    Then should see "Beni hatırla" remember me
-    Then should see "Şifremi Unuttum" forgot password
-    Then should see "Giriş Yap" login button
-
-  @Phone @Components
-  Scenario: Check Phone Components
-    Given LcWaikiki is on Login Page
-    When click "Telefon" radio button
-    Then should see "Giriş Yap" title
-    Then should see "E-Posta" radio button
-    Then should see "Telefon" radio button
-    Then should see Phone Text Box
-    Then should see "Şifre" text on Password
-    Then should see Show Password Icon
-    Then should see "Beni hatırla" remember me
-    Then should see "Şifremi Unuttum" forgot password
-    Then should see "Giriş Yap" login button
+    Then should see "Üye Ol" login button
 
   @Empty
   Scenario Outline: Empty Login
